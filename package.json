@@ -1,0 +1,26 @@
+{
+  "name": "webdriverio_framework",
+  "version": "1.0.0",
+  "description": "webdriverio, page-object-model",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "keywords": [
+    "web",
+    "driver",
+    "io",
+    "page-object-model"
+  ],
+  "author": "mashiat",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^9.8.0"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^9.8.0",
+    "@wdio/mocha-framework": "^9.7.3",
+    "@wdio/spec-reporter": "^9.8.0"
+  }
+}
